@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/street3"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="89dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/logo2"
+        android:layout_marginLeft="-15dp"/>
+
+
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/imgSnow"
+            android:layout_width="126dp"
+            android:layout_height="46dp"
+            android:src="@drawable/snow2"
+            />
+
+    <ImageView
+        android:id="@+id/imgSnow2"
+        android:layout_width="126dp"
+        android:layout_height="46dp"
+       android:layout_gravity="right"
+        android:src="@drawable/snow2" />
+
+    <ImageView
+        android:id="@+id/imgSnow3"
+        android:layout_width="126dp"
+        android:layout_height="46dp"
+        android:src="@drawable/snow2" />
+
+
+
+    <ImageView
+        android:id="@+id/imgLoading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/loadingbar"
+        />
+    <TextView
+        android:id="@+id/tvLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Loading..."
+        android:background="@color/Yellow"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/tvSo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_marginTop="80dp"
+        android:textColor="@color/colorAccent"/>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_marginBottom="20dp"
+        android:indeterminateTint="@color/colorAccent"
+        />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifXe"
+        android:layout_marginTop="40dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/xecuuthuong" />
+
+
+</LinearLayout >
